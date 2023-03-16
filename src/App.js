@@ -1,10 +1,13 @@
-import './App.css';
-import ListGroup from './components/ListGroup';
+import "./App.css";
+import ListGroup from "./components/ListGroup";
 
 function App() {
   return (
-    <div >
-      <ListGroup/>    
+    <div>
+      <ListGroup
+        heading="Cities"
+        items={["New York", "San Francisco", "Des Moines", "Idaho", "Delhi"]}
+      />
     </div>
   );
 }
