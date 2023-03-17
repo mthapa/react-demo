@@ -1,19 +1,16 @@
 import "./App.css";
+import Layout from "./components/Layout";
 import ListGroup from "./components/ListGroup";
 
 function App() {
-  const handleSelectItem = (item) => {
-    console.log("Selected Item:", item);
-  };
+  // const handleSelectItem = (item) => {
+  //   console.log("Selected Item:", item);
+  // };
 
   return (
-    <div>
-      <ListGroup
-        heading="Cities"
-        items={["New York", "San Francisco", "Des Moines", "Idaho", "Delhi"]}
-        onSelectedItem={handleSelectItem}
-      />
-    </div>
+    <>
+      <Layout></Layout>
+    </>
   );
 }
 
